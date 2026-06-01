@@ -1,0 +1,201 @@
+@@ -0,0 +1,200 @@
+Microsoft Windows [Version 10.0.26200.8457]
+(c) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+C:\Users\Student>git --help
+usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]
+           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]
+           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone      Clone a repository into a new directory
+   init       Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add        Add file contents to the index
+   mv         Move or rename a file, a directory, or a symlink
+   restore    Restore working tree files
+   rm         Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect     Use binary search to find the commit that introduced a bug
+   diff       Show changes between commits, commit and working tree, etc
+   grep       Print lines matching a pattern
+   log        Show commit logs
+   show       Show various types of objects
+   status     Show the working tree status
+
+grow, mark and tweak your common history
+   backfill   Download missing objects in a partial clone
+   branch     List, create, or delete branches
+   commit     Record changes to the repository
+   history    EXPERIMENTAL: Rewrite history
+   merge      Join two or more development histories together
+   rebase     Reapply commits on top of another base tip
+   reset      Set `HEAD` or the index to a known state
+   switch     Switch branches
+   tag        Create, list, delete or verify tags
+
+collaborate (see also: git help workflows)
+   fetch      Download objects and refs from another repository
+   pull       Fetch from and integrate with another repository or a local branch
+   push       Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+See 'git help git' for an overview of the system.
+
+C:\Users\Student>git --vision
+unknown option: --vision
+usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]
+           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]
+           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]
+           <command> [<args>]
+
+C:\Users\Student>git cnfig --global user.name "munira--22"
+git: 'cnfig' is not a git command. See 'git --help'.
+
+The most similar command is
+        config
+
+C:\Users\Student>git config --global user.name "munira--22"
+
+C:\Users\Student>git --user.email "nursultanmirlanov31@gmail.com"
+unknown option: --user.email
+usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]
+           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]
+           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]
+           <command> [<args>]
+
+C:\Users\Student>git config --global user.name "munira--22"
+
+C:\Users\Student>git config --global user.email "nursultanmirlanov31@gmail.com"
+
+C:\Users\Student>git config --global user.name
+munira--22
+
+C:\Users\Student>git config --global user.email
+nursultanmirlanov31@gmail.com
+
+C:\Users\Student>CinemaProject
+"CinemaProject" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+C:\Users\Student>CinemaProjectCinemaProject
+"CinemaProjectCinemaProject" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+C:\Users\Student>cd
+C:\Users\Student
+
+C:\Users\Student>cd C:\Users\Student\Desktop\CinemaProject
+
+C:\Users\Student\Desktop\CinemaProject>git init
+Initialized empty Git repository in C:/Users/Student/Desktop/CinemaProject/.git/
+
+C:\Users\Student\Desktop\CinemaProject>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        test.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\Student\Desktop\CinemaProject>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        test.txt
+        "\320\242\320\265\320\272\321\201\321\202\320\276\320\262\321\213\320\271 \320\264\320\276\320\272\321\203\320\274\320\265\320\275\321\202.txt"
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\Student\Desktop\CinemaProject>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        simple.txt
+        test.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\Student\Desktop\CinemaProject>git add test
+fatal: pathspec 'test' did not match any files
+
+C:\Users\Student\Desktop\CinemaProject>git add test
+fatal: pathspec 'test' did not match any files
+
+C:\Users\Student\Desktop\CinemaProject>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        simple.txt
+        test.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\Student\Desktop\CinemaProject>git add test. добавить слово опера
+fatal: pathspec 'test.' did not match any files
+
+C:\Users\Student\Desktop\CinemaProject>git config --global user.name "Мирланов Нурсултан"
+
+C:\Users\Student\Desktop\CinemaProject>git config --global user.name
+Мирланов Нурсултан
+
+C:\Users\Student\Desktop\CinemaProject>cd ..
+
+C:\Users\Student\Desktop>git config --global user.name "Мирланов Нурсултан"
+
+C:\Users\Student\Desktop>git config --global user.name
+Мирланов Нурсултан
+
+C:\Users\Student\Desktop>git config --global user.email "nursultanmirlanov31@gmail.com"
+
+C:\Users\Student\Desktop>git config --global user.email
+nursultanmirlanov31@gmail.com
+
+C:\Users\Student\Desktop>cd "C:\Users\Student\Desktop\Мирланов Нурсултан"
+
+C:\Users\Student\Desktop\Мирланов Нурсултан>git status
+fatal: not a git repository (or any of the parent directories): .git
+
+C:\Users\Student\Desktop\Мирланов Нурсултан>git status
+fatal: not a git repository (or any of the parent directories): .git
+
+C:\Users\Student\Desktop\Мирланов Нурсултан>git init "C:\Users\Student\Desktop\Мирланов Нурсултан"
+Initialized empty Git repository in C:/Users/Student/Desktop/Мирланов Нурсултан/.git/
+
+C:\Users\Student\Desktop\Мирланов Нурсултан>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        nurs.py
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\Student\Desktop\Мирланов Нурсултан>
